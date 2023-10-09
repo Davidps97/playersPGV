@@ -1,0 +1,33 @@
+package com.david.players.entity.services;
+
+import java.util.List;
+
+import com.david.players.entity.models.Player;
+
+public class PlayerServiceImpl implements IPlayerService{
+	
+	@Override
+	public Player get(long id) {
+		return null;
+	}
+	
+	@Override
+	public List<Player> getAll() {
+		return null;
+	}
+	
+	@Override
+	public void post(Player player) {
+		
+	}
+	
+	@Override
+	public void put(Player player, long id) {
+		
+	}
+	
+	@Override
+	public void delete(long id) {
+		
+	}
+}
